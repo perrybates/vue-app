@@ -4,6 +4,7 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 Vue.component("alert", require('./components/Alert.vue').default); 
+Vue.component("todo", require('./components/Todo.vue').default);
 
 Vue.component('button-counter', {
   data: function () {
